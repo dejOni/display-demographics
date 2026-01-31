@@ -1,0 +1,22 @@
+/*
+    Name:James Andrei M. Falar
+    Course: BSCS - 2A
+**/
+using System;
+
+public class Demographics
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Deomgraphics Program by James Andrei M. Falar\n");
+        Console.WriteLine("Student ID    : 2490191862");
+        Console.WriteLine("Full Name     : James Andrei M. Falar");
+        Console.WriteLine("Nick Name     : Drei");
+        Console.WriteLine("Gender        : Male");
+        Console.WriteLine("Year Level    : 2nd Year");
+        Console.WriteLine("Home Location : Skina Japan atbang California");
+        Console.WriteLine("Course        : BSCS");
+        Console.WriteLine("Mobile No.    : 5555-5555-9862");
+        Console.WriteLine("Personal Email: jamesandreifalar@gmail.com");
+    }
+}
