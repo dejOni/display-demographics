@@ -8,15 +8,26 @@ public class Demographics
 {
     public static void Main(string[] args)
     {
+        long studentId = 2490191862;
+        
+        String mobileNo = "5555-5555-9862";
+        String fullName = "James Andrei M. Falar";
+        String nickName = "Drei";
+        String gender = "Male";
+        String yearLevel = "Second Year";
+        String homeLocation = "Skina Japan atbang California";
+        String course = "BSCS";
+        String personalEmail = "jamesandreifalar@gmail.com";
+        
         Console.WriteLine("Deomgraphics Program by James Andrei M. Falar\n");
-        Console.WriteLine("Student ID    : 2490191862");
-        Console.WriteLine("Full Name     : James Andrei M. Falar");
-        Console.WriteLine("Nick Name     : Drei");
-        Console.WriteLine("Gender        : Male");
-        Console.WriteLine("Year Level    : 2nd Year");
-        Console.WriteLine("Home Location : Skina Japan atbang California");
-        Console.WriteLine("Course        : BSCS");
-        Console.WriteLine("Mobile No.    : 5555-5555-9862");
-        Console.WriteLine("Personal Email: jamesandreifalar@gmail.com");
+        Console.WriteLine("Student ID    : " + studentId);
+        Console.WriteLine("Full Name     : " + fullName);
+        Console.WriteLine("Nick Name     : " + nickName);
+        Console.WriteLine("Gender        : " + gender);
+        Console.WriteLine("Year Level    : " + yearLevel);
+        Console.WriteLine("Home Location : " + homeLocation);
+        Console.WriteLine("Course        : " + course);
+        Console.WriteLine("Mobile No.    : " + mobileNo);
+        Console.WriteLine("Personal Email: " + personalEmail);
     }
 }
